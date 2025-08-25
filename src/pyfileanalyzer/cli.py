@@ -5,7 +5,7 @@ import json
 import click
 from loguru import logger
 
-from .logging import setup_logging
+from .log_config import setup_logging
 from .core.scanner import scan_directory
 from .reports.console import print_summary
 
